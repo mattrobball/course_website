@@ -22,13 +22,25 @@ url: 'https://300.f22.matthewrobertballard.com' # the base hostname & protocol f
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 # logo: '/assets/images/beta.png'
 
-term: Fall 2022
+# pdf2svg: '/opt/homebrew/bin/pdf2svg' 
+# destination: '../UofSC-Spring-2022-Math-300-H01.github.io'
+
+term: Fall
+year: 2022
 meeting_time: Mondays, Wednesdays, and Fridays 8:30-9:45 AM
 meeting_location: LeConte College Room 348
 office : LeConte College Room 341
 office_hours: TBD
 bulletin_desc: Rigor of mathematical thinking and proof writing via logic, sets, and functions. Intended to bridge the gap between lower-level (computational-based) and upper-level (proof-based) mathematics courses.
 prereqs: C or better in MATH 142, or consent of the Undergraduate Director
+
+textbook: 
+
+teams_url: 
+github_org: 
+github_classroom: 
+
+# google_analytics: 
 
 # Theme settings
 # remote_theme: pmarsceill/just-the-docs@v0.3.3

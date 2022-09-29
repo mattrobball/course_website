@@ -31,7 +31,7 @@ nav_order: 5
 
 ## Term 
 
-{{ site.term }}
+{{ site.term }} {{ site.year }}
 
 ## Meeting Time and Location 
 
@@ -85,12 +85,9 @@ After successful completion of this course, you will be able to:
 
 ## Course Materials 
 
-The main resources for materials are the [course website](https://544.f21.matthewrobertballard.com) and the [Microsoft Team](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) for the course. 
+The main resources for materials are the [course website]({{ site.url }}) and the [Microsoft Team]({{ site.teams_url }}) for the course. 
 
-Some supplemental (and optional) resources:
-- K. Kuttler. [A first course in linear algebra](https://www.oercommons.org/courses/first-course-linear-algebra/view) (Open Access)
-- J. Hefferon. [Linear algebra](https://joshua.smcvt.edu/linearalgebra/) (Open Access)
-- G. Strang. [Introduction to linear algebra](http://math.mit.edu/~gs/linearalgebra/) 
+The textbook for the course is {{ site.textbook }}. 
 
 All course materials comply with copyright/fair use policies. 
 
@@ -131,7 +128,7 @@ To participate in learning activities and complete assignments, you will need:
 
 - If you plan to submit handwritten assignments, a scanning device such as a smartphone with the Microsoft Office Lens app.  
 
-- The main hub for this course is the Microsoft Teams team [COTEAM-BALLARMR-MATH-544-H01-FALL-2021](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
+- The main hub for this course is the Microsoft Teams[team]({{ site.teams_url }}) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
 
 - We will be using a computer algebra system called [Sage](https://www.sagemath.org/) to aid our learning. It blows your graphing calculator out of the water and is ideally suited to STEM work. Built as a super-set of the popular programming language [Python](https://www.python.org/), Sage skills will translate into Python skills. There are three main ways to access Sage: 
     - [SageMathCell](https://sagecell.sagemath.org/) is ideal for a computation involving a few lines. 
@@ -369,9 +366,9 @@ I am expected to facilitate learning, answer questions appropriately, be fair an
 
 I will cite and/or reference any materials that I use in this course that I do not create. 
 
-Anything that appears on this website is copyright &copy; 2021 Matthew Ballard and is distributed by an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt\">MIT license.
+Anything that appears on this website is copyright &copy; {{ site.year }} Matthew Ballard and is distributed by an <a href="{{ site.github_org }}/tree/master/LICENSE.txt\">MIT license.
 
-Course materials that do not appear on this website are copyright &copy; 2021 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion. 
+Course materials that do not appear on this website are copyright &copy; {{ site.year }} Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion without expressed written permission.
 
 # Tentative Schedule 
 
